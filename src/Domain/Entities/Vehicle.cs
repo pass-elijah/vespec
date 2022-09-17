@@ -2,10 +2,7 @@ namespace Domain.Entities;
 
 public class Vehicle : Entity<int>
 {
+    public string Name { get; set; }
 
-}
-
-public enum VehicleType
-{
-    
+    public VehicleType Type { get; set; }
 }
