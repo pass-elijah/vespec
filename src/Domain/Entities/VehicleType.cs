@@ -1,6 +1,6 @@
 namespace Domain.Entities;
 
-public class VehicleType : Entities<int>
+public class VehicleType : Entity<int>
 {
     string Name { get; set; }
 }
