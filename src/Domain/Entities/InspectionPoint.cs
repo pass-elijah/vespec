@@ -1,6 +1,6 @@
 namespace Domain.Entities;
 
-public class InspectionType
+public class InspectionPoint
 {
     public string Verbage { get; set; }
 
